@@ -15,7 +15,8 @@ class Clues:
     CLUES_LIST = [FIRST_CLUE, SECOND_CLUE, THIRD_CLUE, LAST_CLUE]
 
 class Image:
-    BASE_PATH = "src/webapp/assets/medias/"
+    BASE_PATH = "/mount/src/christmasescape/src/webapp/assets/medias/"
+    # BASE_PATH = "src/webapp/assets/medias/"
     GARDEN_HOUSE = BASE_PATH + "garden_house.jpg"
     CUISINE = BASE_PATH + "cuisine.jpg"
     FINAL_GIFTS = BASE_PATH + "tickets.png"
