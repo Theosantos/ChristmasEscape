@@ -21,6 +21,7 @@ def write():
             time.sleep(5)
         st.write("Désolé pour la photo, le cadeau n'arrivera que Vendredi ...")
         st.write("-- Enigma ...")
+        st.write(Image.GARDEN_HOUSE)
         st.image(Image.GARDEN_HOUSE, "A small garden house", width=600)
         st.write("*Petite serre à monter ensemble !*")
 
