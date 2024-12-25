@@ -1,5 +1,7 @@
 import streamlit as st
 from config import FakeSecrets, Steps, Clues
+import os
+import pathlib
 
 def password_game():
     if Steps.FIRST_STEP not in st.session_state:
@@ -14,6 +16,9 @@ def password_game():
 def write():
     st.write("## Introduction ")
     st.write("Welcome to this sick game of having to think to figure out what you won this year ...")
+    st.write(pathlib.Path(__file__).parent.resolve()
+)
+
     password_game()
     if Steps.FIRST_STEP in st.session_state:
         st.write("First step done !")

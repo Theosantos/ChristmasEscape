@@ -5,7 +5,6 @@ import awesome_streamlit as ast
 from assets.pages import FirstStep, CodeCracking, GardenHouse, HideAndSeek, WellDone
 
 
-
 def get_pages():
     pages = {
         "🎓 1ere Etape": FirstStep
