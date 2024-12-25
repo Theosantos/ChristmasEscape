@@ -61,6 +61,13 @@ def code_cracking():
                 time.sleep(5)
             st.image(Image.CUISINE)
             st.write("Gift is a meal in a fancy Japanese restaurant for Aya and Hugo with Theo")
+            st.write()
+            st.write()
+            st.write()
+            st.write()
+            st.write()
+            st.write()
+            st.write("Have you looked on the back of the phone ?")
         else:
             st.error("**Bad key**")
 
